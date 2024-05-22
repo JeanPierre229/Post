@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cambria', Cochin, Georgia, Times, serif;
+}
+.javas{
+    max-width: 650px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.pub{
+    display: flex;
+    background-color: rgb(100, 100, 179);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    padding: 10px;
+    color: #fff;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+.btnDelete{
+    background-color: brown;
+    color: #fff;
+}
+.post{
+    display: flex;
+    background-color: green;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    padding: 10px;
+    color: #fff;
+    gap: 60px;
+    margin-bottom: 10px;
+}
